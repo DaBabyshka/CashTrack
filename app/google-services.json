@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1091047938881",
+    "project_id": "cashtrack-6f078",
+    "storage_bucket": "cashtrack-6f078.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091047938881:android:3aee987b17a05e7c325fc0",
+        "android_client_info": {
+          "package_name": "ru.startandroid.develop.cashtrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBymCqpf-Tjo0ryMFj1paiW8RsQzEGHp0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
