@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 
-        if (FirebaseAuth.getInstance().getCurrentUser() == null) {
-            startActivity(new Intent(MainActivity.this, LoginActivity.class));
             EdgeToEdge.enable(this);
             setContentView(R.layout.activity_main);
             ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -29,4 +27,3 @@ public class MainActivity extends AppCompatActivity {
             });
         }
     }
-}
