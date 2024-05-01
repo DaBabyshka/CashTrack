@@ -7,4 +7,128 @@
     android:layout_height="match_parent"
     tools:context=".AddSumm">
 
+    <TextView
+        android:id="@+id/add_summ"
+        android:layout_width="236dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/sansation"
+        android:text="Введите сумму:"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="656dp"
+        android:src="@drawable/plus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ruble"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="656dp"
+        android:src="@drawable/ruble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/task"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="656dp"
+        android:src="@drawable/task"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/summ"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="116dp"
+        android:fontFamily="@font/sansation"
+        android:hint="Сумма"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/minus_summ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="508dp"
+        android:background="@drawable/rad"
+        android:fontFamily="@font/sansation"
+        android:text="Вычесть"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/plus_summ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="508dp"
+        android:background="@drawable/rad"
+        android:fontFamily="@font/sansation"
+        android:text="Добавить"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/categ"
+        android:layout_width="297dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/sansation"
+        android:text="Введите категорию:"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/categoria"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="308dp"
+        android:fontFamily="@font/sansation"
+        android:hint="Категория:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
